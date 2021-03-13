@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Actividad Complementaria</title>
+
+  <!-- Bootstrap -->
+  <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- NProgress -->
+  <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+  <!-- iCheck -->
+  <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+
+  <!-- bootstrap-progressbar -->
+  <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+  <!-- JQVMap -->
+  <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+  <!-- bootstrap-daterangepicker -->
+  <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+  <!-- Custom Theme Style -->
+  <link href="../build/css/custom.min.css" rel="stylesheet">
+</head>
+
+<!-- Body del proyecto -->
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <!-- Barra lateral -->
+      <div class="col-md-3 left_col">
+        <div class="left_col scroll-view">
+          <!-- Icono y texto superior izquierdo -->
+          <div class="navbar nav_title" style="border: 0;" align="center">
+            <a href="home.html" class="site_title">
+
+              <h2>Actividad <br> Complementaria</h2>
+            </a>
+          </div>
+          <!-- /Barra lateral -->
+          <!-- /Icono y texto superior izquierdo -->
+          <div class="clearfix"></div>
+
+          <!-- Información del usuario (lateral izquierdo superior) -->
+          <div class="profile clearfix">
+            <div class="profile_pic">
+              <img src="images/user.png" alt="..." class="img-circle profile_img">
+            </div>
+            <div class="profile_info">
+              <span>ADMIN-UAO</span>
+              <h2>Administrador</h2>
+            </div>
+          </div>
+          <!-- /Información del usuario (lateral izquierdo superior) -->
+
+          <br />
+          <!-- Menu Laterial -->
+          <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div class="menu_section">
+              <ul class="nav side-menu">
+                <!-- Elemento General del menu -->
+				<li><a href="Home.html"><i class="fa fa-home"></i> Inicio </a>
+                </li>
+                <li><a><i class="fa fa-users"></i> Usuarios <span class="fa fa-chevron-down"></span></a>
+                  <!-- Elemento General del menu -->
+
+                  <!-- Elementos interno -->
+                  <ul class="nav child_menu">
+                    <li><a href="participantes.html">Participantes</a></li>
+                    <li><a href="tutores.html">Tutores</a></li>
+                    <li><a href="mentores.html">Mentores</a></li>
+                    <li><a href="proponentes.html">Proponentes</a></li>
+                  </ul>
+                  <!-- /Elementos interno -->
+                </li>
+
+
+                <li><a><i class="fa fa-book"></i> Grupos <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="proyectos.html">PEF</a></li>
+                    <li><a href="colectivo.html">Colectivo</a></li>
+                  </ul>
+                </li>
+
+                <li><a><i class="fa fa-desktop"></i> Plataforma <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="formulario.html">Formulario</a></li>
+                    <li><a href="informes.html">Informes</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /Menu Laterial -->
+        </div>
+      </div>
+      <!-- /Barra lateral -->
+
+      <!-- Barra superior -->
+      <div class="top_nav">
+        <div class="nav_menu">
+          <nav>
+            <!-- Icono de compresion -->
+            <div class="nav toggle">
+              <a id="menu_toggle" class="color1">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <!-- /Icono de compresion -->
+            <ul class="nav navbar-nav navbar-right">
+              <li class="">
+              <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <img src="images/user.png" alt="">Administrador
+                <span class=" fa fa-angle-down"></span>
+              </a>
+              <ul class="dropdown-menu dropdown-usermenu pull-right">
+                <li><a href="javascript:;"> Perfil</a></li>
+                <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Cerrar Sesión</a></li>
+              </ul>
+            </li>
+
+                <li role="presentation" class="dropdown">
+                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-bell-o"></i>
+                    <span class="badge bg-red">6</span>
+                  </a>
+
+                  <!-- Notificaciones Emergentes-->
+                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="text-center">
+                        <a>
+                          <strong>See All Alerts</strong>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                  <!-- /Notificaciones Emergentes-->
+                </li>
+                <!--/Notificaciones-->
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /Barra superior -->
+
+        <!-- Contenido de la pagina -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <h2><a href="Home.html">Inicio</a></h2>
+        </li>
+        <li class="breadcrumb-item active">Participantes</li>
+      </ol>
+              </div>
+
+              <!--Barra de Busqueda-->
+              <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Buscar</button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!--/Barra de Busqueda-->
+            </div>
+            <div class="x_panel">
+              <div class="x_content">
+                <div class="">
+
+                  <!--Definición de Tabs-->
+                  <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                    <li role="presentation" class="active">
+                      <a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">
+                        Lista De Participantes
+                      </a>
+                    </li>
+                    <li role="presentation" class="">
+                      <a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">
+                        Agregar Participante
+                      </a>
+                    </li>
+                  </ul>
+                  <!--/Definición de Tabs-->
+
+                  <!--Contenido de las Tabs-->
+                  <div id="myTabContent" class="tab-content">
+                    <!--Contenido Tab1 -->
+                    <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                      <div class="panel">
+                        <div class="panel-body">
+                          <!--Tabla-->
+
+                          <table   class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>Codigo</th>
+                                <th>Apellido</th>
+                                <th>Nombre</th>
+                                <th>Documento</th>
+                                <th>Correo</th>
+                                <th>Colectivo</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">2171726</th>
+                                <td>Albarracin</td>
+                                <td>Breyner</td>
+                                <td>1144082856</td>
+                                <td>breyner.albarracin@uao.edu.co</td>
+                                <td>2G</td>
+                                <td>
+                                  <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Editar </a>
+                                  <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Eliminar </a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2150886</th>
+                                <td>Lara</td>
+                                <td>Juan</td>
+                                <td>114xxxxxxx</td>
+                                <td>juan.lara@uao.edu.co</td>
+                                <td>2G</td>
+                                <td>
+                                  <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Editar </a>
+                                  <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Eliminar </a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">21xxxx</th>
+                                <td>Amilkar</td>
+                                <td>Sebastian</td>
+                                <td>114xxxxxxx</td>
+                                <td>sebastian.amilkar@uao.edu.co</td>
+                                <td>2G</td>
+                                <td>
+                                  <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Editar </a>
+                                  <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Eliminar </a>
+                                </td>
+                              </tr>
+                            </tbody>
+
+                          </table>
+                          <!--/Tabla-->
+                        </div>
+                      </div>
+                    </div>
+                    <!--/Contenido Tab1 -->
+
+                    <!--Contenido Tab2 -->
+                    <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
+                      <div class="clearfix"></div>
+                      <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                          <div class="x_panel">
+                            <div class="x_content">
+                              <br />
+                              <!--Formulario-->
+                              <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                                <div class="form-group">
+                                  <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Nombre <span class="required">*</span>
+                                  </label>
+                                  <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Apellido <span class="required">*</span>
+                                  </label>
+                                  <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" id="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Codigo <span class="required">*</span>
+                                  </label>
+                                  <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" id="codigo" required="required" class="form-control col-md-7 col-xs-12">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Programa <span class="required">*</span>
+                                  </label>
+                                  <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Grupo <span class="required">*</span>
+                                  </label>
+                                  <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <select class="form-control">
+                                      <option>Seleccione un grupo</option>
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>57</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="ln_solid"></div>
+                                <div class="form-group">
+                                  <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                    <button type="submit"  class="btn btn-success">Agregar</button>
+                                  </div>
+                                </div>
+                              </form>
+                              <!--/Formulario-->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--/Contenido Tab2 -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Contenido de la pagina -->
+
+    <!-- Pie de Pagina -->
+    <footer>
+      <div class="pull-right">
+        Plataforma Actividad Complementaria <a href="https://colorlib.com/polygon/gentelella/index.html">BETA</a>
+      </div>
+      <div class="clearfix"></div>
+    </footer>
+    <!-- Pie de Pagina -->
+  </div>
+</div>
+
+<!-- jQuery -->
+<script src="../vendors/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="../vendors/fastclick/lib/fastclick.js"></script>
+<!-- NProgress -->
+<script src="../vendors/nprogress/nprogress.js"></script>
+<!-- Chart.js -->
+<script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+<!-- gauge.js -->
+<script src="../vendors/gauge.js/dist/gauge.min.js"></script>
+<!-- bootstrap-progressbar -->
+<script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+<!-- iCheck -->
+<script src="../vendors/iCheck/icheck.min.js"></script>
+<!-- Skycons -->
+<script src="../vendors/skycons/skycons.js"></script>
+<!-- Flot -->
+<script src="../vendors/Flot/jquery.flot.js"></script>
+<script src="../vendors/Flot/jquery.flot.pie.js"></script>
+<script src="../vendors/Flot/jquery.flot.time.js"></script>
+<script src="../vendors/Flot/jquery.flot.stack.js"></script>
+<script src="../vendors/Flot/jquery.flot.resize.js"></script>
+<!-- Flot plugins -->
+<script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+<script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+<script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+<!-- DateJS -->
+<script src="../vendors/DateJS/build/date.js"></script>
+<!-- JQVMap -->
+<script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
+<script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+<script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+<!-- bootstrap-daterangepicker -->
+<script src="../vendors/moment/min/moment.min.js"></script>
+<script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+<!-- Custom Theme Scripts -->
+<script src="../build/js/custom.min.js"></script>
+
+</body>
+</html>
+<!-- Body del proyecto -->

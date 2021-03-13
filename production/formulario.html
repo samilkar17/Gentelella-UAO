@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Actividad Complementaria</title>
+
+  <!-- Bootstrap -->
+  <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- NProgress -->
+  <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+  <!-- iCheck -->
+  <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+
+  <!-- bootstrap-progressbar -->
+  <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+  <!-- JQVMap -->
+  <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+  <!-- bootstrap-daterangepicker -->
+  <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+  <!-- Custom Theme Style -->
+  <link href="../build/css/custom.min.css" rel="stylesheet">
+</head>
+
+<!-- Body del proyecto -->
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <!-- Barra lateral -->
+      <div class="col-md-3 left_col">
+        <div class="left_col scroll-view">
+          <!-- Icono y texto superior izquierdo -->
+          <div class="navbar nav_title" style="border: 0;" align="center">
+            <a href="home.html" class="site_title">
+              <h2>Actividad <br> Complementaria</h2>
+            </a>
+          </div>
+          <!-- /Barra lateral -->
+          <!-- /Icono y texto superior izquierdo -->
+          <div class="clearfix"></div>
+
+          <!-- Información del usuario (lateral izquierdo superior) -->
+          <div class="profile clearfix">
+            <div class="profile_pic">
+              <img src="images/user.png" alt="..." class="img-circle profile_img">
+            </div>
+            <div class="profile_info">
+              <span>ADMIN-UAO</span>
+              <h2>Administrador</h2>
+            </div>
+          </div>
+          <!-- /Información del usuario (lateral izquierdo superior) -->
+
+          <br />
+
+          <!-- Menu Laterial -->
+          <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div class="menu_section">
+              <ul class="nav side-menu">
+                <!-- Elemento General del menu -->
+                <li><a href="Home.html"><i class="fa fa-home"></i> Inicio </a>
+                </li>
+                <li><a><i class="fa fa-users"></i> Usuarios <span class="fa fa-chevron-down"></span></a>
+                  <!-- Elemento General del menu -->
+
+                  <!-- Elementos interno -->
+                  <ul class="nav child_menu">
+                    <li><a href="participantes.html">Participantes</a></li>
+                    <li><a href="tutores.html">Tutores</a></li>
+                    <li><a href="mentores.html">Mentores</a></li>
+                    <li><a href="proponentes.html">Proponentes</a></li>
+                  </ul>
+                  <!-- /Elementos interno -->
+                </li>
+
+
+                <li><a><i class="fa fa-book"></i> Grupos <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="proyectos.html">PEF</a></li>
+                    <li><a href="DetalleProyecto.html">Colectivo</a></li>
+                  </ul>
+                </li>
+
+                <li><a><i class="fa fa-desktop"></i> Plataforma <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="formulario.html">Formulario</a></li>
+                    <li><a href="informes.html">Informes</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /Menu Laterial -->
+        </div>
+      </div>
+      <!-- /Barra lateral -->
+
+      <!-- Barra superior -->
+      <div class="top_nav">
+        <div class="nav_menu">
+          <nav>
+            <!-- Icono de compresion -->
+            <div class="nav toggle">
+              <a id="menu_toggle" class="color1">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <!-- /Icono de compresion -->
+            <ul class="nav navbar-nav navbar-right">
+              <li class="">
+              <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <img src="images/user.png" alt="">Administrador
+                <span class=" fa fa-angle-down"></span>
+              </a>
+              <ul class="dropdown-menu dropdown-usermenu pull-right">
+                <li><a href="javascript:;"> Perfil</a></li>
+                <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Cerrar Sesión</a></li>
+              </ul>
+            </li>
+                <!--Area de Notificaciones-->
+                <li role="presentation" class="dropdown">
+
+                  <li role="presentation" class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                      <i class="fa fa-bell-o"></i>
+                      <span class="badge bg-red">6</span>
+                    </a>
+
+                    <!-- Notificaciones Emergentes-->
+                    <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                      <li>
+                        <a>
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <div class="text-center">
+                          <a>
+                            <strong>See All Alerts</strong>
+                            <i class="fa fa-angle-right"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                    <!-- /Notificaciones Emergentes-->
+                  </li>
+                  <!--/Notificaciones-->
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <!-- /Barra superior -->
+          <!-- Contenido de la pagina -->
+
+          <div class="right_col" role="main">
+            <div class="page-title">
+              <div class="title_left">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <h2><a href="Home.html">Inicio</a></h2>
+                  </li>
+                  <li class="breadcrumb-item active">Formulario</li>
+                </ol>
+              </div>
+            </div>
+            <!-- INFORMACIÓN BÁSICA DE LA PEF  -->
+            <div class="clearfix"></div>
+            <div class="">
+              <div class="col-md-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>INFORMACIÓN BÁSICA DE LA PEF</h2>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <br/>
+                    <form class="form-horizontal form-label-left">
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Nombre del proponente</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Correo Electronico</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Nombre de la PEF</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Proposito formativo de la PEF</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Campo de Complementariedad</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Categoría de la práctica</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <select class="select2_group form-control">
+                            <option value="AK">Dirigida</option>
+                            <option value="HI">Programa Preferente</option>
+                            <option value="HI">Multiprograma</option>
+                            <option value="HI">Interprograma</option>
+                            <option value="HI">Irrestricta</option>
+                          </select>
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Programa(s) a el(los) que se dirige, preferentemente</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Número de colectivos por PEF(Entre 1 y 6 colectivos) </label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Número de integrantes por colectivo</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Dedicación semanal estimada para desarrollar la práctica (Entre 4 y 6 horas semanales)</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                          <button type="submit" class="btn btn-success">Guardar</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>INFORMACIÓN DE EL(LA/LOS) MENTOR(A/ES)</h2>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <br/>
+                    <form class="form-horizontal form-label-left">
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Nombre Completo</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Correo Electronico</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Franja de atencion</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Jugar de Atención</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Segundo Mentor</label>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Nombre Completo</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Correo Electronico</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Franja de atencion</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-3">Jugar de Atención</label>
+                        <div class="col-md-5 has-feedback-left">
+                          <input type="text"  class="form-control" placeholder=" ">
+                        </div>
+                        <input type="checkbox" class="js-switch" checked /> Checked
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                          <button type="submit" class="btn btn-success">Guardar</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Contribución al desarrollo de competencias genéricas en los(as) ingenieros(as) en formación </h2>
+                    <div class="clearfix"></div>
+                  </div>
+                  <form class="form-horizontal form-label-left">
+                    <div class="form-group">
+                      <div class="col-md-6">
+                        <input type="text"  class="form-control" value="Trabajo en equipo">
+                      </div>
+                      <div class="col-md-6">
+                        <textarea rows="5" class="resizable_textarea form-control">Trabaja en colaboración con otros profesionales en forma respetuosa, responsable y eficiente, para el desarrollo de actividades y proyectos conjuntos, planteando sus propias ideas y reconociendo el valor de los aportes de los otros miembros del equipo, contribuyendo a la solución de problemas del entorno social, productivo y de servicios</textarea>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-md-6">
+                        <input type="text"  class="form-control" value="Aprendizaje autónomo y continuo">
+                      </div>
+                      <div class="col-md-6">
+                        <textarea rows="5" class="resizable_textarea form-control">Reconoce la importancia de asumir con responsabilidad y disciplina un proceso de autogestión formativa para lograr aprendizajes en forma autónoma y continua, identificando su estilo y ritmo particular de aprendizaje, para reforzar, encontrar o construir nuevos conocimientos y competencias que le sean útiles en su formación y desempeño profesional. </textarea>                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-6">
+                          <input type="text"  class="form-control" value="Pensamiento crítico">
+                        </div>
+                        <div class="col-md-6">
+                          <textarea rows="5" class="resizable_textarea form-control">Identifica, comprende y analiza la validez de ideas, argumentos, evidencias y razonamientos con criterios claros y objetivos, para confrontar, asumir una posición y emitir juicios de valor en temas relacionados con el ejercicio profesional. </textarea>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-6">
+                          <input type="text"  class="form-control" value="Comunicación oral, escrita y gráfica ">
+                        </div>
+                        <div class="col-md-6">
+                          <textarea rows="5" class="resizable_textarea form-control">Interpreta, argumenta y propone ideas de manera clara, lógica y coherente en forma oral, escrita o gráfica, para el entendimiento entre los actores de diferentes disciplinas y el avance de proyectos comunes, haciendo uso de los términos correctos y las herramientas propias de la Ingeniería. </textarea>                        </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-md-6">
+                            <input type="text"  class="form-control" value="">
+                          </div>
+                          <div class="col-md-6">
+                            <textarea rows="5" class="resizable_textarea form-control"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                            <button type="submit" class="btn btn-success">Guardar</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="x_panel">
+                    <div class="x_title">
+                      <h2>Contribución al desarrollo de principios axiológicos y valores UAO </h2>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                      <br/>
+                      <form class="form-horizontal form-label-left">
+                        <div class="form-group">
+                          <div class="col-md-6">
+                            <input type="text"  class="form-control" value="Autonomía">
+                          </div>
+                          <div class="col-md-6">
+                            <textarea rows="5" class="resizable_textarea form-control">Condición libremente elegida por cada colectivo de trabajo de manejarse a sí mismo de manera responsable, mediante normas que regulen sus propios intereses y actuaciones. </textarea>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-md-6">
+                            <input type="text"  class="form-control" value="Integralidad">
+                          </div>
+                          <div class="col-md-6">
+                            <textarea rows="5" class="resizable_textarea form-control">Desarrollo de competencias cognitivas, técnicas y comunicativas y de procesos orientados a posibilitar el acceso de los matriculados en Actividad Complementaria a la mayoría de edad en el uso de la razón, del afecto, del intelecto y de su físico en el ejercicio responsable y ético de su ciudadanía y de su profesión.</textarea>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-md-6">
+                            <input type="text"  class="form-control" value="Excelencia">
+                          </div>
+                          <div class="col-md-6">
+                            <textarea rows="5" class="resizable_textarea form-control">Fomento de la calidad y búsqueda permanente de la perfección. </textarea>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-md-6">
+                            <input type="text"  class="form-control" value="Creatividad">
+                          </div>
+                          <div class="col-md-6">
+                            <textarea rows="5" class="resizable_textarea form-control">Vivencia de la libertad y la capacidad para producir ideas y acciones nuevas destinadas a la solución de problemas sociales o vitales. </textarea>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-md-6">
+                            <input type="text"  class="form-control" value="">
+                          </div>
+                          <div class="col-md-6">
+                            <textarea rows="5" class="resizable_textarea form-control"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                            <button type="submit" class="btn btn-success">Guardar</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="x_panel">
+                    <div class="x_title">
+                      <h2>Estrategia de verificación del cumplimiento y desarrollo de competencias transversales,<br>
+                        principios axiológicos y valores seleccionados para la PEF </h2>
+                        <div class="clearfix"></div>
+                      </div>
+                      <div class="x_content">
+                        <br/>
+                        <form class="form-horizontal form-label-left">
+                          <div class="form-group">
+                            <div class="col-md-6">
+                              <input type="text"  class="form-control" value="Competencias">
+                            </div>
+                            <div class="col-md-6">
+                              <textarea rows="5" class="resizable_textarea form-control"></textarea>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-md-6">
+                              <input type="text"  class="form-control" value="Principios y valores">
+                            </div>
+                            <div class="col-md-6">
+                              <textarea rows="5" class="resizable_textarea form-control"></textarea>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                              <button type="submit" class="btn btn-success">Guardar</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="x_panel">
+                      <div class="x_title">
+                        <h2>Saberes previos y requisitos académicos para desarrollar esta PEF </h2>
+                          <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                          <br/>
+                          <form class="form-horizontal form-label-left">
+                            <div class="form-group">
+                              <div class="col-md-6">
+                                <input type="text"  class="form-control" value="Asignaturas cursada o Conocimientos necesarios ">
+                              </div>
+                              <div class="col-md-6">
+                                <textarea rows="5" class="resizable_textarea form-control"></textarea>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="col-md-6">
+                                <input type="text"  class="form-control" value="Habilidades y destrezas requeridas">
+                              </div>
+                              <div class="col-md-6">
+                                <textarea rows="5" class="resizable_textarea form-control"></textarea>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                                <button type="submit" class="btn btn-success">Guardar</button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="x_panel">
+                        <div class="x_title">
+                          <h2>Descripción de la PEF </h2>
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="x_content">
+                            <br/>
+                            <form class="form-horizontal form-label-left">
+                              <div class="form-group">
+                                <div class="col-md-12">
+                                  <textarea rows="7" class="resizable_textarea form-control"></textarea>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                                  <button type="submit" class="btn btn-success">Guardar</button>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- /Contenido de la pagina -->
+          <!-- Pie de Pagina -->
+          <footer>
+            <div class="pull-right">
+              Plataforma Actividad Complementaria <a href="https://colorlib.com/polygon/gentelella/index.html">BETA</a>
+            </div>
+            <div class="clearfix"></div>
+          </footer>
+          <!-- Pie de Pagina -->
+        </div>
+      </div>
+
+      <!-- jQuery -->
+      <script src="../vendors/jquery/dist/jquery.min.js"></script>
+      <!-- Switchery -->
+      <script src="../vendors/switchery/dist/switchery.min.js"></script>
+      <!-- Bootstrap -->
+      <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+      <!-- FastClick -->
+      <script src="../vendors/fastclick/lib/fastclick.js"></script>
+      <!-- NProgress -->
+      <script src="../vendors/nprogress/nprogress.js"></script>
+      <!-- Chart.js -->
+      <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+      <!-- gauge.js -->
+      <script src="../vendors/gauge.js/dist/gauge.min.js"></script>
+      <!-- bootstrap-progressbar -->
+      <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+      <!-- iCheck -->
+      <script src="../vendors/iCheck/icheck.min.js"></script>
+      <!-- Skycons -->
+      <script src="../vendors/skycons/skycons.js"></script>
+      <!-- Flot -->
+      <script src="../vendors/Flot/jquery.flot.js"></script>
+      <script src="../vendors/Flot/jquery.flot.pie.js"></script>
+      <script src="../vendors/Flot/jquery.flot.time.js"></script>
+      <script src="../vendors/Flot/jquery.flot.stack.js"></script>
+      <script src="../vendors/Flot/jquery.flot.resize.js"></script>
+      <!-- Flot plugins -->
+      <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+      <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+      <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+      <!-- DateJS -->
+      <script src="../vendors/DateJS/build/date.js"></script>
+      <!-- JQVMap -->
+      <script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
+      <script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+      <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+      <!-- bootstrap-daterangepicker -->
+      <script src="../vendors/moment/min/moment.min.js"></script>
+      <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+      <!-- Custom Theme Scripts -->
+      <script src="../build/js/custom.min.js"></script>
+
+      <!-- Switchery -->
+      <link href="../vendors/switchery/dist/switchery.min.css" rel="stylesheet">
+
+    </body>
+    </html>
