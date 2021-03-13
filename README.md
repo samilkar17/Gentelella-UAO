@@ -6,6 +6,6 @@ Este proyecto fue realizado en la asignatura de actividad complementaria
 ![dashboard1](https://user-images.githubusercontent.com/33507392/111036107-87925700-83eb-11eb-95cc-c75d68cf0f30.png)
 ## Objetivo
 Este dashboard web fue desarrollado con el objetivo de actualizar la interfaz grafica de la actual página web de la asignatura, Adémas se añadieron diferentes interfaces con el fin de poder visualizar de manera adecuada la información
-## Librerias
+## Librerías
 Para el desarrollo de este dashboard web nos basamos en una plantilla gratuita llamada [Gentelel la Alela!](http://https://colorlib.com/polygon/gentelella/ "Gentellela Alela!")
 
